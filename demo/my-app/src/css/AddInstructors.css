@@ -1,0 +1,142 @@
+.registration-container {
+    /*background-image: url('../../public/images/hacettepe.jpg');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+
+    color: rgb(123, 31, 31);
+
+    background-repeat: no-repeat;
+    background-position:0svh;
+    background-size: 176;
+    background-image: linear-gradient(79deg, #ffffff, #fdfbf7 38%, #b9a844);
+    opacity: 0.7;
+    background-image:url('../../public/images/hacettepe.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+
+    height: 100vh;
+
+}
+
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-container {
+    background-image: linear-gradient(79deg, #ffffff, #f3f0eb 38%, #f1ddb4);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    border: 5px solid #410303;
+    padding: 20px;
+    border-radius: 10px;
+    height: 330px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.form-container p {
+    margin-top: 10px;
+}
+
+.form-container a {
+    color: #007bff;
+}
+.link-btn {
+    background-color: mediumseagreen;
+    color: rgb(49, 117, 59);
+    text-decoration: underline;
+}
+
+.menu_objects{
+    width: 1200px; /* Adjust the width as needed */
+    height: 730px;
+    justify-content: center;
+    background-color: #61dafb;
+    background-image: linear-gradient(79deg, #f8f6f2, #fcfcde 38%, #fcdd87);
+    border: 3px solid #887749;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}

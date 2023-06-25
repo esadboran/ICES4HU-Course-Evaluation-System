@@ -1,0 +1,91 @@
+.login-container {
+    /*background-color: #f9f9f9;*/
+    border: 10px solid #410303;
+    padding: 20px;
+    border-radius: 10px;
+    height: 700px;
+    width: 400px;
+    text-align: center;
+    background-image: linear-gradient(79deg, #ffffff, #b49860 38%, #b9a844);
+    opacity: 0.8;
+}
+
+.background-mypage{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    opacity: 0.9;
+    background-position:0svh;
+    background-size: 176;
+    background-image: linear-gradient(79deg, #ffffff, #fdfbf7 38%, #e0d594);
+    height: 100vh;
+
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content:flex-start;
+    color: rgb(102, 34, 34);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position:0;
+    background-size: 176;
+    /*background-image: linear-gradient(79deg, #d5ba7d, #d5ba7d 38%, #d5ba7d);*/
+
+}
+
+.login-title {
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.login-container p {
+    margin-top: 10px;
+}
+
+.login-container a {
+    color: #007bff;
+}
+.auth-form-container, .login-form, .register-form, .student {
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+    flex-direction: column;
+}
+.link-btn {
+    background-color: mediumseagreen;
+    color: rgb(49, 117, 59);
+    text-decoration: underline;
+}

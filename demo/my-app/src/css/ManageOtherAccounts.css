@@ -1,0 +1,107 @@
+.inner_menu_objects{
+    width: 500px; /* Adjust the width as needed */
+    height: 100px;
+    justify-content: center;
+    background-color: #8c732f;
+    border: 3px solid #887749;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.login-container-mn {
+    /*background-color: #f9f9f9;*/
+    border: 10px solid #410303;
+    padding: 20px;
+    border-radius: 10px;
+    height: 700px;
+    width: 400px;
+    text-align: center;
+    background-color: #360c44;
+    opacity: 0.8;
+}
+.auth-form-container, .login-form, .register-form, .student {
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+    flex-direction: column;
+}
+
+.menu_objects-x{
+    width: 1000px; /* Adjust the width as needed */
+    height: 950px;
+    justify-content: center;
+    background-color: #61dafb;
+    background-image: linear-gradient(79deg, #f8f6f2, #fcfcde 38%, #fcdd87);
+    border: 3px solid #887749;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+.manage-container {
+    background-image: linear-gradient(79deg, #ffffff, #d7cfbf 38%, #cbcb56);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    border: 10px solid #410303;
+    padding: 20px;
+    border-radius: 10px;
+    height: 750px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+    flex-direction: column;
+}
+.manage-other-account {
+    /*background-color: #f9f9f9;*/
+    border: 10px solid #410303;
+    padding: 20px;
+    border-radius: 10px;
+    height: 700px;
+    width: 400px;
+    text-align: center;
+    background-image: linear-gradient(79deg, #ffffff, #e5dfa0 38%, #dad090);
+    opacity: 0.8;
+}
+
+.login-title {
+    margin-bottom: 20px;
+}
+
+.manage-other-account form {
+    display: flex;
+    flex-direction: column;
+}
+
+.manage-other-account label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.manage-other-account input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.manage-other-account button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.manage-other-account button:hover {
+    background-color: #0056b3;
+}
+
+.manage-other-account p {
+    margin-top: 10px;
+}
+
+.manage-other-account a {
+    color: #007bff;
+}
